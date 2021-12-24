@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on <App /> Component should snap with the snapshot 1`] = `
+<Fragment>
+  <h1
+    className="text-center mt-3 green display-1"
+  >
+    John Doe
+  </h1>
+  <h2
+    className="text-center blue display-2"
+  >
+    Subtitle
+  </h2>
+</Fragment>
+`;

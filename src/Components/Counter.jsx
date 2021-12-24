@@ -17,18 +17,18 @@ const Counter = ({ value }) => {
     const handleReset = () => setCounter(value);
 
     const handleDecrement = () => {
-        (counter > 0) && setCounter(counter - 10)
+        (counter > 0) && setCounter(counter - 10);
     };
 
     return (
         <>
             <h1 className={ h1 }>Counter App</h1>
             <hr />
-            <h2 className={ h2 }>{ counter }</h2>
+            <h2 id="counter" className={ h2 }>{ counter }</h2>
             <section className="text-center mt-3">
-                <button onClick={ handleIncrement } className={ btn }>+</button>
-                <button onClick={ handleReset }     className={ resetBtn }>reset</button>
-                <button onClick={ handleDecrement } className={ btn }>-</button>
+                <button id="increment" onClick={ handleIncrement } className={ btn }>+</button>
+                <button id="reset" onClick={ handleReset }     className={ resetBtn }>reset</button>
+                <button id="decrement" onClick={ handleDecrement } className={ btn }>-</button>
             </section>
         </>
     );

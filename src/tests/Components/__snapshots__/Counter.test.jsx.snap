@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on <Counter /> Component should match with snapshot 1`] = `
+<Fragment>
+  <h1
+    className="text-center mt-3 green display-1"
+  >
+    Counter App
+  </h1>
+  <hr />
+  <h2
+    className="text-center blue display-2"
+    id="counter"
+  >
+    0
+  </h2>
+  <section
+    className="text-center mt-3"
+  >
+    <button
+      className="btn btn-primary"
+      id="increment"
+      onClick={[Function]}
+    >
+      +
+    </button>
+    <button
+      className="btn btn-primary mx-2"
+      id="reset"
+      onClick={[Function]}
+    >
+      reset
+    </button>
+    <button
+      className="btn btn-primary"
+      id="decrement"
+      onClick={[Function]}
+    >
+      -
+    </button>
+  </section>
+</Fragment>
+`;

@@ -5,7 +5,7 @@ import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Counter value="10" />
+    <Counter />
   </React.StrictMode>,
   document.getElementById('root')
 );
